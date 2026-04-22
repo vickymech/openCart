@@ -1,0 +1,66 @@
+2026-04-22 09:33:59 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 09:34:09 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 09:34:53 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 09:35:03 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 09:35:13 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 09:35:24 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 09:45:16 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 09:45:28 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 09:45:28 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 09:45:42 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 09:45:42 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 09:45:56 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 09:45:56 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 09:46:10 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 09:46:10 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 09:46:21 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 09:56:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
+
+2026-04-22 09:56:31 INFO  T001_AccountRegestration:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-04-22 09:56:31 INFO  T001_AccountRegestration:22 - Clicked on MyAccount Link.. 
+2026-04-22 09:56:32 INFO  T001_AccountRegestration:25 - Clicked on Register Link.. 
+2026-04-22 09:56:32 INFO  T001_AccountRegestration:29 - Providing customer details...
+2026-04-22 09:56:38 INFO  T001_AccountRegestration:43 - Validating expected message..
+2026-04-22 09:56:39 INFO  T001_AccountRegestration:48 - Test passed
+2026-04-22 09:56:39 INFO  T001_AccountRegestration:57 - ***** Finished TC001_AccountRegistrationTest *****
+2026-04-22 09:58:14 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grid.xml
+
+2026-04-22 09:58:19 INFO  T001_AccountRegestration:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-04-22 09:58:19 INFO  T001_AccountRegestration:22 - Clicked on MyAccount Link.. 
+2026-04-22 09:58:20 INFO  T001_AccountRegestration:25 - Clicked on Register Link.. 
+2026-04-22 09:58:20 INFO  T001_AccountRegestration:29 - Providing customer details...
+2026-04-22 09:58:26 INFO  T001_AccountRegestration:43 - Validating expected message..
+2026-04-22 09:58:26 INFO  T001_AccountRegestration:48 - Test passed
+2026-04-22 09:58:26 INFO  T001_AccountRegestration:57 - ***** Finished TC001_AccountRegistrationTest *****
+2026-04-22 10:36:10 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 10:36:21 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 10:36:21 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 10:36:36 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 10:36:36 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 10:36:50 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 10:36:50 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 10:37:05 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 10:37:05 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 10:37:16 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 11:04:13 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 11:04:26 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 11:04:26 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 11:04:40 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 11:04:40 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 11:04:55 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 11:04:55 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 11:05:09 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 11:05:09 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 11:05:20 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 11:10:04 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 11:10:15 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 11:10:15 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 11:10:30 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 11:10:30 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 11:10:45 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 11:10:45 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 11:10:59 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 11:10:59 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 11:11:10 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
