@@ -64,3 +64,16 @@
 2026-04-22 11:10:59 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
 2026-04-22 11:10:59 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
 2026-04-22 11:11:10 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 16:28:48 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
+
+2026-04-22 16:28:54 INFO  T001_AccountRegestration:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-04-22 16:28:54 INFO  T001_AccountRegestration:22 - Clicked on MyAccount Link.. 
+2026-04-22 16:28:55 INFO  T001_AccountRegestration:25 - Clicked on Register Link.. 
+2026-04-22 16:28:55 INFO  T001_AccountRegestration:29 - Providing customer details...
+2026-04-22 16:29:01 INFO  T001_AccountRegestration:43 - Validating expected message..
+2026-04-22 16:29:02 INFO  T001_AccountRegestration:48 - Test passed
+2026-04-22 16:29:02 INFO  T001_AccountRegestration:57 - ***** Finished TC001_AccountRegistrationTest *****
+2026-04-22 16:29:15 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-04-22 16:29:26 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-04-22 16:29:26 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
