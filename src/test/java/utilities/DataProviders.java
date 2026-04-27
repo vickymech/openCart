@@ -2,6 +2,7 @@ package utilities;
 
 import java.io.IOException;
 
+import org.openqa.selenium.ie.InternetExplorerDriverLogLevel;
 import org.testng.annotations.DataProvider;
 
 public class DataProviders {
@@ -32,6 +33,28 @@ public class DataProviders {
 	}
 	
 	//DataProvider 2
+	@DataProvider(name="inputData2")
+   public String [][] InputData() throws IOException
+   {
+	String path2="C:\\Users\\ELCOT\\eclipse-workspace\\openCart\\testData\\inputDatas.xlsx";
+	
+	ExcelUtility datas= new ExcelUtility(path2);
+	
+	int rowcounts=datas.getRowCount("Sheet2");
+	 int cellcount=datas.getCellCount("Sheet2", 1);
+	 String inputdatas2[][] = new String [rowcounts][cellcount];
+	 
+	 for(int r=1;r<=rowcounts;r++) 
+	 {
+		for(int c=0;c<cellcount;c++) 
+		{
+			 inputdatas2[r-1][c]=datas.getCellData("Sheet1",r,c);
+		}
+	 }
+	 return  inputdatas2;
+	
+	   
+   }
 	
 	//DataProvider 3
 	

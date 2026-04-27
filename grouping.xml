@@ -24,8 +24,8 @@
     <parameter name="browser" value="chrome"/>
     <classes>
    
-      <class name="testCase.T001_AccountRegestration"/>
-         <class name="testCase.TC002_LoginTest"/>
+     <!-- <class name="testCase.T001_AccountRegestration"/>-->
+        <!-- <class name="testCase.TC002_LoginTest"/>-->
      <class name="testCase.TC003_LoginDDT"/>
     </classes>
   </test> <!-- Test -->

@@ -11,7 +11,7 @@ import utilities.DataProviders;
 
 
 public class TC003_LoginDDT extends BaseClass{
-	@Test(dataProvider="LoginData", dataProviderClass=DataProviders.class,groups="Datadriven")// getting data provider from different class
+	@Test(dataProvider="inputData2",dataProviderClass = DataProviders.class, groups="Datadriven")//  dataProvider="LoginData", dataProviderClass=DataProviders.classgetting data provider from different class
 	public void verify_loginDDT(String email, String pwd, String exp) throws InterruptedException
 	{
 		logger.info("***** stating TC_003_LoginDDT ******");
