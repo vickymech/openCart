@@ -11,7 +11,7 @@ import utilities.DataProviders;
 
 
 public class TC003_LoginDDT extends BaseClass{
-	@Test(dataProvider="inputData2",dataProviderClass = DataProviders.class, groups="Datadriven")//  dataProvider="LoginData", dataProviderClass=DataProviders.classgetting data provider from different class
+	@Test(dataProvider="LoginData",dataProviderClass = DataProviders.class, groups="Datadriven")//  dataProvider="LoginData", dataProviderClass=DataProviders.classgetting data provider from different class
 	public void verify_loginDDT(String email, String pwd, String exp) throws InterruptedException
 	{
 		logger.info("***** stating TC_003_LoginDDT ******");
@@ -19,16 +19,19 @@ public class TC003_LoginDDT extends BaseClass{
 		try
 		{
 		//HomePage
+			
 		HomePage hp=new HomePage(driver);
 		hp.clickMyAccount();
 		hp.clickLogin();
 		
+		
 		//Login
+		logger.info("****Hime page details updating TC_003_LoginDDT *****");
 		LoginPage lp=new LoginPage(driver);
 		lp.setEmail(email);
 		lp.Setpassword(pwd);
 		lp.clikLoginbut();
-			
+		logger.info("****Home page details updating complite TC_003_LoginDDT *****");
 		//MyAccount
 		Myaccountpage macc=new Myaccountpage(driver);
 		boolean targetPage=macc.accountcheak();
@@ -70,7 +73,7 @@ public class TC003_LoginDDT extends BaseClass{
 		{
 			Assert.fail();
 		}
-		Thread.sleep(3000);
+	
 		logger.info("***** Finished TC_003_LoginDDT ******");
 		
 	}

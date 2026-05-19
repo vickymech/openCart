@@ -7,6 +7,7 @@
  <!--<include name="Sanity"/>-->
 <!--<include name="Regression"></include>-->
 <include name="Master"></include>
+<include name="Surch"></include>
   <!--<include name="Datadriven"></include>-->
  <!--<exclude name="Master"></exclude>-->
 </run>
@@ -24,9 +25,11 @@
     <parameter name="browser" value="chrome"/>
     <classes>
     
-    <class name="testCase.T001_AccountRegestration"/>
-         <class name="testCase.TC002_LoginTest"/>
+     <!--<class name="testCase.T001_AccountRegestration"/>-->
+          <!--<class name="testCase.TC002_LoginTest"/>-->
+         <class name="testCase.TC004_SurchTest"></class>
       <!--<class name="testCase.TC003_LoginDDT"/>-->
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -2,7 +2,6 @@ package utilities;
 
 import java.io.IOException;
 
-import org.openqa.selenium.ie.InternetExplorerDriverLogLevel;
 import org.testng.annotations.DataProvider;
 
 public class DataProviders {

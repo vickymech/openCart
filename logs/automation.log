@@ -1,40 +1,185 @@
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:08 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ELCOT\AppData\Local\Temp\testng-eclipse--267061834\testng-customsuite.xml
+2026-05-18 17:26:32 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
 
-2026-04-27 09:52:08 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
-2026-04-27 09:52:09 ERROR Utils:154 - [Error] java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()&quot; because &quot;this.sheet&quot; is null
+2026-05-18 17:26:48 INFO  T001_AccountRegestration:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-18 17:26:48 INFO  T001_AccountRegestration:22 - Clicked on MyAccount Link.. 
+2026-05-18 17:26:49 INFO  T001_AccountRegestration:25 - Clicked on Register Link.. 
+2026-05-18 17:26:49 INFO  T001_AccountRegestration:29 - Providing customer details...
+2026-05-18 17:26:55 INFO  T001_AccountRegestration:43 - Validating expected message..
+2026-05-18 17:26:56 INFO  T001_AccountRegestration:48 - Test passed
+2026-05-18 17:26:56 INFO  T001_AccountRegestration:57 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-18 17:27:01 INFO  TC002_LoginTest:18 - ****Testcase TC002_LoginTest Start****
+2026-05-18 17:27:01 INFO  TC002_LoginTest:23 - Clicked on MyAccount Link.. 
+2026-05-18 17:27:02 INFO  TC002_LoginTest:25 - Clicked on Register Link.. 
+2026-05-18 17:27:02 INFO  TC002_LoginTest:28 - Providing customer details...
+2026-05-18 17:27:03 INFO  TC002_LoginTest:32 - Validating expected message..
+2026-05-18 17:27:21 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 17:27:22 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 17:27:23 INFO  TC003_LoginDDT:34 - ****Hime page details updating complite TC_003_LoginDDT *****
+2026-05-18 17:27:33 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 17:27:34 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 17:27:34 INFO  TC003_LoginDDT:34 - ****Hime page details updating complite TC_003_LoginDDT *****
+2026-05-18 17:27:45 INFO  TC003_LoginDDT:77 - ***** Finished TC_003_LoginDDT ******
+2026-05-18 17:27:45 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 17:27:45 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 17:27:46 INFO  TC003_LoginDDT:34 - ****Hime page details updating complite TC_003_LoginDDT *****
+2026-05-18 17:27:56 INFO  TC003_LoginDDT:77 - ***** Finished TC_003_LoginDDT ******
+2026-05-18 17:27:56 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 17:27:56 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 17:27:57 INFO  TC003_LoginDDT:34 - ****Hime page details updating complite TC_003_LoginDDT *****
+2026-05-18 17:28:07 INFO  TC003_LoginDDT:77 - ***** Finished TC_003_LoginDDT ******
+2026-05-18 17:28:07 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 17:28:07 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 17:28:08 INFO  TC003_LoginDDT:34 - ****Hime page details updating complite TC_003_LoginDDT *****
+2026-05-18 17:28:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
+
+2026-05-18 17:28:47 INFO  T001_AccountRegestration:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-18 17:28:48 INFO  T001_AccountRegestration:22 - Clicked on MyAccount Link.. 
+2026-05-18 17:28:48 INFO  T001_AccountRegestration:25 - Clicked on Register Link.. 
+2026-05-18 17:28:48 INFO  T001_AccountRegestration:29 - Providing customer details...
+2026-05-18 17:28:54 INFO  T001_AccountRegestration:43 - Validating expected message..
+2026-05-18 17:28:55 INFO  T001_AccountRegestration:48 - Test passed
+2026-05-18 17:28:55 INFO  T001_AccountRegestration:57 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-18 17:29:00 INFO  TC002_LoginTest:18 - ****Testcase TC002_LoginTest Start****
+2026-05-18 17:29:00 INFO  TC002_LoginTest:23 - Clicked on MyAccount Link.. 
+2026-05-18 17:29:01 INFO  TC002_LoginTest:25 - Clicked on Register Link.. 
+2026-05-18 17:29:01 INFO  TC002_LoginTest:28 - Providing customer details...
+2026-05-18 17:29:02 INFO  TC002_LoginTest:32 - Validating expected message..
+2026-05-18 17:29:19 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 17:29:21 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 17:29:21 INFO  TC003_LoginDDT:34 - ****Hime page details updating complite TC_003_LoginDDT *****
+2026-05-18 17:29:31 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 17:29:32 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 17:29:33 INFO  TC003_LoginDDT:34 - ****Hime page details updating complite TC_003_LoginDDT *****
+2026-05-18 17:29:43 INFO  TC003_LoginDDT:77 - ***** Finished TC_003_LoginDDT ******
+2026-05-18 17:29:43 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 17:29:44 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 17:29:44 INFO  TC003_LoginDDT:34 - ****Hime page details updating complite TC_003_LoginDDT *****
+2026-05-18 17:29:54 INFO  TC003_LoginDDT:77 - ***** Finished TC_003_LoginDDT ******
+2026-05-18 17:29:55 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 17:29:55 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 17:29:56 INFO  TC003_LoginDDT:34 - ****Hime page details updating complite TC_003_LoginDDT *****
+2026-05-18 17:30:06 INFO  TC003_LoginDDT:77 - ***** Finished TC_003_LoginDDT ******
+2026-05-18 17:30:06 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 17:30:07 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 17:30:07 INFO  TC003_LoginDDT:34 - ****Hime page details updating complite TC_003_LoginDDT *****
+2026-05-18 17:33:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
+
+2026-05-18 17:33:32 INFO  T001_AccountRegestration:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-18 17:33:32 INFO  T001_AccountRegestration:22 - Clicked on MyAccount Link.. 
+2026-05-18 17:33:33 INFO  T001_AccountRegestration:25 - Clicked on Register Link.. 
+2026-05-18 17:33:33 INFO  T001_AccountRegestration:29 - Providing customer details...
+2026-05-18 17:33:39 INFO  T001_AccountRegestration:43 - Validating expected message..
+2026-05-18 17:33:40 INFO  T001_AccountRegestration:48 - Test passed
+2026-05-18 17:33:40 INFO  T001_AccountRegestration:57 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-18 17:33:45 INFO  TC002_LoginTest:18 - ****Testcase TC002_LoginTest Start****
+2026-05-18 17:33:45 INFO  TC002_LoginTest:23 - Clicked on MyAccount Link.. 
+2026-05-18 17:33:46 INFO  TC002_LoginTest:25 - Clicked on Register Link.. 
+2026-05-18 17:33:46 INFO  TC002_LoginTest:28 - Providing customer details...
+2026-05-18 17:33:47 INFO  TC002_LoginTest:32 - Validating expected message..
+2026-05-18 17:37:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
+
+2026-05-18 17:37:47 INFO  T001_AccountRegestration:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-18 17:37:47 INFO  T001_AccountRegestration:22 - Clicked on MyAccount Link.. 
+2026-05-18 17:37:48 INFO  T001_AccountRegestration:25 - Clicked on Register Link.. 
+2026-05-18 17:37:48 INFO  T001_AccountRegestration:29 - Providing customer details...
+2026-05-18 17:37:54 INFO  T001_AccountRegestration:43 - Validating expected message..
+2026-05-18 17:37:55 INFO  T001_AccountRegestration:48 - Test passed
+2026-05-18 17:37:55 INFO  T001_AccountRegestration:57 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-18 17:37:59 INFO  TC002_LoginTest:18 - ****Testcase TC002_LoginTest Start****
+2026-05-18 17:37:59 INFO  TC002_LoginTest:23 - Clicked on MyAccount Link.. 
+2026-05-18 17:38:00 INFO  TC002_LoginTest:25 - Clicked on Register Link.. 
+2026-05-18 17:38:00 INFO  TC002_LoginTest:28 - Providing customer details...
+2026-05-18 17:38:00 INFO  TC002_LoginTest:32 - Validating expected message..
+2026-05-18 17:38:01 INFO  TC002_LoginTest:47 - ****Testcase TC002_LoginTest Start****
+2026-05-18 17:39:10 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
+
+2026-05-18 17:39:14 INFO  T001_AccountRegestration:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-18 17:39:14 INFO  T001_AccountRegestration:22 - Clicked on MyAccount Link.. 
+2026-05-18 17:39:15 INFO  T001_AccountRegestration:25 - Clicked on Register Link.. 
+2026-05-18 17:39:15 INFO  T001_AccountRegestration:29 - Providing customer details...
+2026-05-18 17:39:21 INFO  T001_AccountRegestration:43 - Validating expected message..
+2026-05-18 17:39:22 INFO  T001_AccountRegestration:48 - Test passed
+2026-05-18 17:39:22 INFO  T001_AccountRegestration:57 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-18 17:39:27 INFO  TC002_LoginTest:18 - ****Testcase TC002_LoginTest Start****
+2026-05-18 17:39:27 INFO  TC002_LoginTest:23 - Clicked on MyAccount Link.. 
+2026-05-18 17:39:28 INFO  TC002_LoginTest:25 - Clicked on Register Link.. 
+2026-05-18 17:39:28 INFO  TC002_LoginTest:28 - Providing customer details...
+2026-05-18 17:39:28 INFO  TC002_LoginTest:32 - Validating expected message..
+2026-05-18 17:39:29 INFO  TC002_LoginTest:47 - ****Testcase TC002_LoginTest Start****
+2026-05-18 17:41:23 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
+
+2026-05-18 17:41:27 INFO  T001_AccountRegestration:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-18 17:41:28 INFO  T001_AccountRegestration:22 - Clicked on MyAccount Link.. 
+2026-05-18 17:41:28 INFO  T001_AccountRegestration:25 - Clicked on Register Link.. 
+2026-05-18 17:41:28 INFO  T001_AccountRegestration:29 - Providing customer details...
+2026-05-18 17:41:34 INFO  T001_AccountRegestration:43 - Validating expected message..
+2026-05-18 17:41:35 INFO  T001_AccountRegestration:48 - Test passed
+2026-05-18 17:41:35 INFO  T001_AccountRegestration:57 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-18 17:41:39 INFO  TC002_LoginTest:18 - ****Testcase TC002_LoginTest Start****
+2026-05-18 17:41:39 INFO  TC002_LoginTest:23 - Clicked on MyAccount Link.. 
+2026-05-18 17:41:40 INFO  TC002_LoginTest:25 - Clicked on Register Link.. 
+2026-05-18 17:41:40 INFO  TC002_LoginTest:28 - Providing customer details...
+2026-05-18 17:41:41 INFO  TC002_LoginTest:32 - Validating expected message..
+2026-05-18 17:41:41 INFO  TC002_LoginTest:47 - ****Testcase TC002_LoginTest Start****
+2026-05-18 17:45:06 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
+
+2026-05-18 17:45:11 INFO  T001_AccountRegestration:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-18 17:45:12 INFO  T001_AccountRegestration:22 - Clicked on MyAccount Link.. 
+2026-05-18 17:45:12 INFO  T001_AccountRegestration:25 - Clicked on Register Link.. 
+2026-05-18 17:45:12 INFO  T001_AccountRegestration:29 - Providing customer details...
+2026-05-18 17:45:18 INFO  T001_AccountRegestration:43 - Validating expected message..
+2026-05-18 17:45:19 INFO  T001_AccountRegestration:48 - Test passed
+2026-05-18 17:45:19 INFO  T001_AccountRegestration:57 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-18 17:45:24 INFO  TC002_LoginTest:18 - ****Testcase TC002_LoginTest Start****
+2026-05-18 17:45:25 INFO  TC002_LoginTest:23 - Clicked on MyAccount Link.. 
+2026-05-18 17:45:25 INFO  TC002_LoginTest:25 - Clicked on Register Link.. 
+2026-05-18 17:45:25 INFO  TC002_LoginTest:28 - Providing customer details...
+2026-05-18 17:45:26 INFO  TC002_LoginTest:32 - Validating expected message..
+2026-05-18 17:45:26 INFO  TC002_LoginTest:47 - ****Testcase TC002_LoginTest Start****
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 16 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-18 17:55:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\AppData\Local\Temp\testng-eclipse-562600339\testng-customsuite.xml
+
+2026-05-18 17:55:27 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
+2026-05-18 17:55:28 ERROR Utils:154 - [Error] java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()&quot; because &quot;this.sheet&quot; is null
 	at utilities.ExcelUtility.getRowCount(ExcelUtility.java:39)
-	at utilities.DataProviders.getData(DataProviders.java:19)
+	at utilities.DataProviders.InputData(DataProviders.java:42)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -66,99 +211,41 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 
-2026-04-27 09:52:09 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@27b22f74: 119 ms
-2026-04-27 09:52:09 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@44afefd5: 21 ms
-2026-04-27 09:52:09 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@2d6aca33: 13 ms
-2026-04-27 09:52:09 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5b5c0057: 10 ms
-2026-04-27 09:52:09 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@997d532: 14 ms
-2026-04-27 09:52:09 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@273842a6: 0 ms
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2026-04-27 09:52:55 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ELCOT\AppData\Local\Temp\testng-eclipse-1623102243\testng-customsuite.xml
-
-2026-04-27 09:52:55 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
-2026-04-27 09:52:56 ERROR Utils:154 - [Error] java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()&quot; because &quot;this.sheet&quot; is null
-	at utilities.ExcelUtility.getRowCount(ExcelUtility.java:39)
-	at utilities.DataProviders.getData(DataProviders.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-2026-04-27 09:52:57 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@4690f583: 123 ms
-2026-04-27 09:52:57 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@783ec989: 18 ms
-2026-04-27 09:52:57 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@71178a52: 11 ms
-2026-04-27 09:52:57 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@aced190: 9 ms
-2026-04-27 09:52:57 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2d6aca33: 11 ms
-2026-04-27 09:52:57 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@21ab988f: 0 ms
-2026-04-27 09:53:50 INFO  Utils:112 - [TestNG] Running:
+2026-05-18 17:55:28 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@1460c81d: 112 ms
+2026-05-18 17:55:28 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@51ce6f85: 22 ms
+2026-05-18 17:55:28 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@747d1932: 15 ms
+2026-05-18 17:55:28 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@148c7c4b: 11 ms
+2026-05-18 17:55:28 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6aba5d30: 10 ms
+2026-05-18 17:55:28 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@61d34b4: 0 ms
+2026-05-18 17:56:41 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
 
-2026-04-27 09:56:48 INFO  Utils:112 - [TestNG] Running:
+2026-05-18 17:58:54 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
 
-2026-04-27 09:56:55 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
-2026-04-27 09:57:05 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
-2026-04-27 09:57:05 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
-2026-04-27 09:57:19 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
-2026-04-27 09:57:19 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
-2026-04-27 09:57:34 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
-2026-04-27 09:57:34 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
-2026-04-27 09:57:48 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
-2026-04-27 09:57:48 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
-2026-04-27 09:57:58 INFO  TC003_LoginDDT:74 - ***** Finished TC_003_LoginDDT ******
+2026-05-18 17:59:18 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
+
+2026-05-18 18:03:21 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ELCOT\eclipse-workspace\openCart\grouping.xml
+
+2026-05-18 18:03:29 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 18:03:30 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 18:03:31 INFO  TC003_LoginDDT:34 - ****Home page details updating complite TC_003_LoginDDT *****
+2026-05-18 18:03:37 INFO  TC003_LoginDDT:77 - ***** Finished TC_003_LoginDDT ******
+2026-05-18 18:03:38 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 18:03:39 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 18:03:39 INFO  TC003_LoginDDT:34 - ****Home page details updating complite TC_003_LoginDDT *****
+2026-05-18 18:03:49 INFO  TC003_LoginDDT:77 - ***** Finished TC_003_LoginDDT ******
+2026-05-18 18:03:49 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 18:03:50 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 18:03:51 INFO  TC003_LoginDDT:34 - ****Home page details updating complite TC_003_LoginDDT *****
+2026-05-18 18:04:01 INFO  TC003_LoginDDT:77 - ***** Finished TC_003_LoginDDT ******
+2026-05-18 18:04:01 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 18:04:01 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 18:04:02 INFO  TC003_LoginDDT:34 - ****Home page details updating complite TC_003_LoginDDT *****
+2026-05-18 18:04:12 INFO  TC003_LoginDDT:77 - ***** Finished TC_003_LoginDDT ******
+2026-05-18 18:04:12 INFO  TC003_LoginDDT:17 - ***** stating TC_003_LoginDDT ******
+2026-05-18 18:04:13 INFO  TC003_LoginDDT:29 - ****Hime page details updating TC_003_LoginDDT *****
+2026-05-18 18:04:13 INFO  TC003_LoginDDT:34 - ****Home page details updating complite TC_003_LoginDDT *****
+2026-05-18 18:04:19 INFO  TC003_LoginDDT:77 - ***** Finished TC_003_LoginDDT ******

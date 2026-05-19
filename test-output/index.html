@@ -108,11 +108,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(abc123@gmail.com, test@123, Valid)">verify_loginDDT(abc123@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(lakshmi@yahoo.com, Laxmi, Invalid)">verify_loginDDT(lakshmi@yahoo.com, Laxmi, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -124,6 +119,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(laksh@yahoo.com, Lakshmi, Invalid)">verify_loginDDT(laksh@yahoo.com, Lakshmi, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC003_LoginDDT" class="method navigator-link" hash-for-method="verify_loginDDT(abc123@gmail.com, test@123, Valid)">verify_loginDDT(abc123@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -154,14 +154,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verify_loginDDT(abc123@gmail.com, test@123, Valid)">
-                  </a> <!-- verify_loginDDT(abc123@gmail.com, test@123, Valid) -->
-                  <span class="method-name">verify_loginDDT</span>
-                  <span class="parameters">(abc123@gmail.com,test@123,Valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verify_loginDDT(lakshmi@yahoo.com, Laxmi, Invalid)">
                   </a> <!-- verify_loginDDT(lakshmi@yahoo.com, Laxmi, Invalid) -->
                   <span class="method-name">verify_loginDDT</span>
@@ -184,6 +176,14 @@
                   <span class="parameters">(laksh@yahoo.com,Lakshmi,Invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_loginDDT(abc123@gmail.com, test@123, Valid)">
+                  </a> <!-- verify_loginDDT(abc123@gmail.com, test@123, Valid) -->
+                  <span class="method-name">verify_loginDDT</span>
+                  <span class="parameters">(abc123@gmail.com,test@123,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -198,12 +198,14 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;groups&gt;
     &lt;run&gt;
+      &lt;include name=&quot;Sanity&quot;/&gt;
       &lt;include name=&quot;Master&quot;/&gt;
       &lt;include name=&quot;Datadriven&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;groups&gt;
     &lt;run&gt;
+      &lt;include name=&quot;Sanity&quot;/&gt;
       &lt;include name=&quot;Master&quot;/&gt;
       &lt;include name=&quot;Datadriven&quot;/&gt;
     &lt;/run&gt;
@@ -267,28 +269,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verify_loginDDT')
 data.setCell(0, 2, 'testCase.TC003_LoginDDT')
-data.setCell(0, 3, 14168);
+data.setCell(0, 3, 11442);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verify_loginDDT')
 data.setCell(1, 2, 'testCase.TC003_LoginDDT')
-data.setCell(1, 3, 14034);
+data.setCell(1, 3, 11360);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verify_loginDDT')
 data.setCell(2, 2, 'testCase.TC003_LoginDDT')
-data.setCell(2, 3, 13966);
+data.setCell(2, 3, 11220);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verify_loginDDT')
 data.setCell(3, 2, 'testCase.TC003_LoginDDT')
-data.setCell(3, 3, 10525);
+data.setCell(3, 3, 8117);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verify_loginDDT')
 data.setCell(4, 2, 'testCase.TC003_LoginDDT')
-data.setCell(4, 3, 10199);
+data.setCell(4, 3, 7679);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -321,27 +323,27 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verify_loginDDT(vigneshpadi5@gmail.com, vicky@123, Valid)</span>
-                <span class="method-start">6710 ms</span>
+                <span class="method-start">7539 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verify_loginDDT(lakshmi@yahoo.com, Laxmi, Invalid)</span>
-                <span class="method-start">17267 ms</span>
+                <span class="method-start">15933 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verify_loginDDT(laksh@yahoo.com, Lakshmi, Invalid)</span>
-                <span class="method-start">31236 ms</span>
+                <span class="method-start">27383 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verify_loginDDT(laks@yahoo.com, xyz, Invalid)</span>
-                <span class="method-start">45404 ms</span>
+                <span class="method-start">38759 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verify_loginDDT(abc123@gmail.com, test@123, Valid)</span>
-                <span class="method-start">59438 ms</span>
+                <span class="method-start">49995 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">69641 ms</span>
+                <span class="method-start">57689 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -15,27 +15,36 @@ public class TC002_LoginTest extends BaseClass {
 	
 	{
 		try {
+			logger.info("****Testcase TC002_LoginTest Start****");
+			
 			
 			HomePage hp=new HomePage(driver);
 			hp.clickMyAccount();
+			logger.info("Clicked on MyAccount Link.. ");
 			hp.clickLogin();
-		
+			logger.info("Clicked on Register Link.. ");
+			
 		LoginPage ln=new LoginPage(driver);
+		logger.info("Providing customer details...");
 		ln.setEmail(p.getProperty("email"));
 		ln.Setpassword(p.getProperty("password"));
 		ln.clikLoginbut();
+		logger.info("Validating expected message..");
 		
 		Myaccountpage my=new Myaccountpage(driver);
 		boolean conformation= my.accountcheak();
 		Assert.assertEquals(conformation, true);
+		
 		
 	
 		
 		}
 		catch(Exception e) 
 		{
-			Assert.fail();
+			logger.error("test casefail"+e.getMessage());
+			Assert.fail("test casefail"+e.getMessage());
 		}
+		logger.info("****Testcase TC002_LoginTest Start****");
 		
 			
 		

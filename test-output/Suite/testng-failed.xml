@@ -9,6 +9,7 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
+        <include name="Sanity"/>
         <include name="Master"/>
         <include name="Datadriven"/>
       </run>

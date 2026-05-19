@@ -97,7 +97,7 @@ public class BaseClass {
 			driver.manage().deleteAllCookies();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			
-			driver.get("http://localhost/opencartsites/"); //(p.getProperty)//("http://localhost/opencartsites/") reading url from properties file.
+			driver.get("http://localhost/opencartsite/"); //(p.getProperty)//("http://localhost/opencartsites/") reading url from properties file.
 			driver.manage().window().maximize();
 		}
 		
